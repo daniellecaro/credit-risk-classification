@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Module 12 Report 
 
 ## Overview of the Analysis
 
@@ -44,9 +44,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
            0       1.00      1.00      1.00     18759
            1       0.87      0.89      0.88       625
 
-            accuracy                            0.99     19384
-            macro avg       0.94      0.94      0.94     19384
-            weighted avg    0.99      0.99      0.99     19384
+          accuracy                            0.99     19384
+          macro avg       0.94      0.94      0.94     19384
+          weighted avg    0.99      0.99      0.99     19384
 
   * balanced accuracy score: 0.9442676901753825 
 
@@ -77,4 +77,5 @@ Summarize the results of the machine learning models, and include a recommendati
 
  * Healthy loans being identified as a non-healthy loan would be costly for a lending company as it is lost potential revenue, a loan that they should've given out but didn't. Non-Healthy loans being identified as a healthy loan would costly for a lending company becasue they are backing someone who cannot truly support what thy were given and the bank may never recover the funds. With this, I would say the bank loses more when non-healthy loans are deemed healthy. They profit off successful loans by collecting interest rates, if a non-healthy loan falls through, then the bank goes in the hole or sends it to a collection agency. I think they would rather risk losing potential revenue, than losing revenue that they were planning to have.
 
-* If you do not recommend any of the models, please justify your reasoning.
+3. If you do not recommend any of the models, please justify your reasoning.
+  * n/a
