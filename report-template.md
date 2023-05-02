@@ -58,9 +58,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
            0       1.00      1.00      1.00     18759
            1       0.87      1.00      0.93       625
 
-            accuracy                             1.00     19384
-            macro avg        0.94      1.00      0.96     19384
-            weighted avg     1.00      1.00      1.00     19384
+          accuracy                             1.00     19384
+          macro avg        0.94      1.00      0.96     19384
+          weighted avg     1.00      1.00      1.00     19384
 
   * balanced accuracy score: 0.9959744975744975 
 
@@ -69,11 +69,11 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
-* Which one seems to perform best? How do you know it performs best?
+1. Which one seems to perform best? How do you know it performs best?
 
- * The second oversampled model performs the best. I used two main features to ideantify this, the accuracy and the recall both improved. The accuracy is so important because it tells us generally how right we are. This is a nice indicator, but we cannot ignore false negatives and false posistives that can affect the values. That is why we also look at recall. Recall tells us about how well the model identifies true positives and at 1.00, that means that it did an excellent job. 
+  * The second oversampled model performs the best. I used two main features to ideantify this, the accuracy and the recall both improved. The accuracy is so important because it tells us generally how right we are. This is a nice indicator, but we cannot ignore false negatives and false posistives that can affect the values. That is why we also look at recall. Recall tells us about how well the model identifies true positives and at 1.00, that means that it did an excellent job. 
 
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+2. Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
  * Healthy loans being identified as a non-healthy loan would be costly for a lending company as it is lost potential revenue, a loan that they should've given out but didn't. Non-Healthy loans being identified as a healthy loan would costly for a lending company becasue they are backing someone who cannot truly support what thy were given and the bank may never recover the funds. With this, I would say the bank loses more when non-healthy loans are deemed healthy. They profit off successful loans by collecting interest rates, if a non-healthy loan falls through, then the bank goes in the hole or sends it to a collection agency. I think they would rather risk losing potential revenue, than losing revenue that they were planning to have.
 
